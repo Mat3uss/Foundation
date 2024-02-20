@@ -11,37 +11,34 @@
     <title>Foundation</title>
 </head>
 <body>
-
-
-    <img src="./img/background.png" style="height: 650px;" alt="">
     
-    <main class="grid-container fluid" style="height: 100vh; background-color: var(--primary-color);">
-        <div class="grid-x align-center">
-            <div class="cell small-12 medium-4 text-center chocolate">
-                <img src="./img/bombom.png" class="bombom" alt="">
-            </div>
-            
-            <div class="cell small-12 medium-4 text-center yellow">
-                <img src="./img/titulo.png"  alt=""> 
-                <div class="title-container">
-                    <p>
-                        Ferrero Rocher oferece uma experiência de sabor incomparável de contraste de camadas: uma avelã inteira no meio, um delicioso recheio cremoso de avelã, um wafer crocante coberto com chocolate e pedacinhos de avelã.
-                    </p>             
-                    
-                    <button type="button" class="button botao">Saiba mais</button>
-                </div>
-            </div>
-            
-            <div class="cell small-12 medium-4 text-center chocolate">
-                <img src="./img/ferreiro-rocher 1.png" alt="">
+ <img class="fundoimg" src="./img/background.png" style="height: 100vh;" alt="">
+<main class="grid-container fluid" style="height: 100vh; background-color: #2e1012;">
+    <div class="grid-x align-center">
+        <div class="cell small-12 medium-4 text-center chocolate">
+           
+            <div class="flex-container">
+                <img src="./img/bombom.png" alt="" class="bombom1">
+                <img class="bombom2" src="./img/ferreiro-rocher 1.png" alt="">
             </div>
         </div>
-    </main>
+        <div class="cell small-12 medium-4 text-center yellow" style="background-color: #F3CC4D; font-family: 'Indie Flower', cursive; position: relative; padding-top: 50px;">
+            <img class="titulo" src="./img/titulo.png" alt="" style="position: absolute; top: 0; left: 50%; transform: translateX(-50%);">
+            <div class="title-container">
+                <p style="color: #000000;">
+                    Ferrero Rocher oferece uma experiência de sabor incomparável de contraste de camadas: uma avelã inteira no meio, um delicioso recheio cremoso de avelã, um wafer crocante coberto com chocolate e pedacinhos de avelã.
+                </p>
+                <button type="button" class="button botao" style="background-color: #2e1012; color: #FFFFFF;">Saiba mais</button>
+            </div>
+        </div>
+        <div class="cell small-12 medium-4 text-center chocolate"></div>
+    </div>
+</main>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
 </body>
 </html>

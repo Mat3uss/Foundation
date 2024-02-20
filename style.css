@@ -4,19 +4,12 @@
     box-sizing: border-box;
 }
 
-:root{
-    --primary-color: #2e1012;
-    --second-color: #F3CC4D;
-    --black: #000000;
-}
-
 main{
     width: 100vw;
     height: 100vh;
     background-color: var(--primary-color);
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: 50%;
 }
 
 .yellow{
@@ -40,9 +33,6 @@ main{
 
 img{
     position: absolute;
-    top: 15%;
-    left: 15%;
-    z-index: 1;
 }
 
 .chocolate{
@@ -54,7 +44,7 @@ p{
     width: 80%;
     font-size: 32px;
 }
- 
+
 .botao{
     width: 290px;
     height: 70px;
@@ -73,7 +63,10 @@ p{
 
 .title-container {
     display: flex;
-    left: 500px;
-    gap: ;
+    flex-direction: column;
+    align-items: center;
 }
 
+.title-container h1 {
+    margin-bottom: 10px;
+}
