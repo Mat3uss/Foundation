@@ -34,6 +34,16 @@ main{
 img{
     position: absolute;
 }
+.bombom1 {
+    margin-left: -10%;   
+    top: 50%;
+
+}
+
+.bombom2 {
+    top: 50%;
+    margin-left: -10%;
+}
 
 .chocolate{
     height: 50vh;
