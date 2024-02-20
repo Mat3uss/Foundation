@@ -36,12 +36,11 @@ img{
 }
 .bombom1 {
     margin-left: -10%;   
-    top: 50%;
+    top: 30%;
 
 }
-
 .bombom2 {
-    top: 50%;
+    top: 30%;
     margin-left: -10%;
 }
 
@@ -79,4 +78,8 @@ p{
 
 .title-container h1 {
     margin-bottom: 10px;
+}
+
+.ajuste{
+    padding: 64px;
 }
